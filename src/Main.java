@@ -12,7 +12,7 @@ public class Main {
             String entradaUsuario = scanner.nextLine();
 
             if (entradaUsuario.equalsIgnoreCase("sair")) {
-                System.out.println("MiniChatbot: Tchau! Até a próxima.");
+                System.out.println("MiniChatbot: Tchau Até a próxima.");
                 break;
             }
 

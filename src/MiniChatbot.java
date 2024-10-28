@@ -1,5 +1,5 @@
 public class MiniChatbot {
-    private String nome;
+    public String nome;
 
     public MiniChatbot() {
         this.nome = "MiniChatbot";
@@ -18,7 +18,7 @@ public class MiniChatbot {
     }
 
     public String respostaPadrao() {
-        return "Desculpe, não entendi sua pergunta. Pode reformular?";
+        return "Desculpe, não entendi sua pergunta. Pode refazer?";
     }
 
     public String responder(String entradaUsuario) {
